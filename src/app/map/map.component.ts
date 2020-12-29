@@ -39,7 +39,7 @@ export class MapComponent implements OnInit {
 
   /** Zoom of the map
    */
-  @Input() zoom: string;
+  @Input() zoom: number;
 
   /**
    * [ol.Map](http://openlayers.org/en/latest/apidoc/ol.Map.html) Openlayer map object
